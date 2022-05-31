@@ -1,7 +1,5 @@
 repos:
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.2.0
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: ""
     hooks:
-      - id: check-yaml
-      - id: end-of-file-fixer
-      - id: trailing-whitespace
+      - id: prettier
